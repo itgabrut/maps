@@ -1,0 +1,24 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title text-center="center">
+      Расположения брандспойтов
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+  <ion-content>
+    <div class="bg">
+    </div>
+    <h1 text-center>
+      Выберите локацию
+    </h1>
+    <br/>
+
+    <ion-list>
+      <button ion-item *ngFor="let location of locations" class="location" (click)="goToLocation(location)">
+        {{location}}
+      </button>
+    </ion-list>
+  </ion-content>
+

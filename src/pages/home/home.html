@@ -16,8 +16,8 @@
     <br/>
 
     <ion-list>
-      <button ion-item *ngFor="let location of locations" class="location" (click)="goToLocation(location)">
-        {{location}}
+      <button ion-item *ngFor="let city of cities" class="location" (click)="goToLocation(city)">
+        {{city.name}}
       </button>
     </ion-list>
   </ion-content>

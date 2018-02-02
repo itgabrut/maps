@@ -6,12 +6,14 @@
 //}
 page-home{
   .bg{
-    background: url("../assets/imgs/test.jpg") 50% 30% no-repeat;
+    background: url("../assets/imgs/test.jpg") 50% 50% no-repeat;
     background-size: cover;
     opacity: 0.1;
     position: absolute;
-    height: 600px;
-    width: 350px;
+    //height: 600px;
+    //width: 350px;
+    height: 100vh;
+    width: 100vw;
   }
   .location{
     text-align: center;
